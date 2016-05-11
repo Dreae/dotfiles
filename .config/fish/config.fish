@@ -1,3 +1,13 @@
+set fish_greeting ""
+
+function sudo
+    if test "$argv" = "!!"
+        eval command sudo $history[1]
+    else
+        command sudo $argv
+    end
+end
+
 # Git commands
 function gst
   git status $argv
