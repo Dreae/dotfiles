@@ -1,0 +1,54 @@
+! Fonts
+xft.dpi : 96
+xft.rgba: rgb
+xft.hinting: true
+xft.hintstyle: hintslight
+
+! URxvt
+URxvt*font: xft:Hack:style=Regular:pixelsize=24
+URxvt*letterSpace: -1
+URxvt.scrollStyle: rxvt
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+
+! Thunar
+Thunar*font: xft:Hack:style=Regular:pixelsize=24
+
+! Colors
+! Special
+*.foreground:   #d3d4d5
+*.background:   #272822
+*.cursorColor:  #353c58
+
+! black
+*.color0:       #f7f7f7
+*.color8:       #4c4e50
+
+! red
+*.color1:       #f92672
+*.color9:       #f92672
+
+! green
+*.color2:       #a6e22e
+*.color10:      #a6e22e
+
+! yellow
+*.color3:       #fd971f
+*.color11:      #fd971f
+
+! blue
+*.color4:       #66d9ef
+*.color12:      #66d9ef
+
+! magenta
+*.color5:       #d086f7
+*.color13:      #d086f7
+
+! cyan
+*.color6:       #94c9fe
+*.color14:      #94c9fe
+
+! white
+*.color7:       #d3d4d5
+*.color15:      #d3d4d5
